@@ -18,17 +18,9 @@
 }
 
 .main.slytherin {
-  background: repeating-linear-gradient(
-    45deg,
-    #7a7a7a,
-    #7a7a7a 3px,
-    #0b3a07 3px,
-    #0b3a07 9px,
-    #7a7a7a 9px,
-    #7a7a7a 10px,
-    #0b3a07 10px,
-    #0b3a07 30px
-  );
+  background: linear-gradient(-45deg, black, #aaaaaa, #aaaaaa, #2a623d, #2a623d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .main.ravenclaw {

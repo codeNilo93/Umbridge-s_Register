@@ -22,3 +22,7 @@
   width: 100%;
   object-fit: contain;
 }
+
+.footer__button.footer-active {
+  opacity: 50%;
+}

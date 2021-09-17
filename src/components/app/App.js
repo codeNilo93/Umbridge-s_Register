@@ -3,11 +3,12 @@ import Header from '../header/Header'
 import Main from '../main/Main'
 import Card from '../card/Card'
 import Footer from '../footer/Footer'
+import { useState } from 'react'
 import React from 'react'
-import React, { useState } from 'react'
+
 
 function App({data}) {
-  const [activeHouse, setActiveHouse] =useState('Gryffindor')
+  const [activeHouse, setActiveHouse] = useState('Gryffindor')
   function handleFooterButtonClick(house) {
     setActiveHouse(house)
   }
