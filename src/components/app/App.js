@@ -1,9 +1,9 @@
 import './App.css'
-import data from '../../data.json'
 import Header from '../header/Header'
 import Main from '../main/Main'
 import Card from '../card/Card'
 import Footer from '../footer/Footer'
+import React from 'react'
 import React, { useState } from 'react'
 
 function App({data}) {
