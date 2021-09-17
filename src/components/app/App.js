@@ -6,6 +6,7 @@ import Footer from '../footer/Footer'
 import { useState } from 'react'
 import React from 'react'
 
+
 function App({data}) {
   const [activeHouse, setActiveHouse] = useState('Gryffindor')
   function handleFooterButtonClick(house) {
