@@ -4,7 +4,7 @@ import Slytherin from '../images/slytherin.webp'
 import Ravenclaw from '../images/ravenclaw.webp'
 import Hufflepuff from '../images/hufflepuff.webp'
 
-function Footer(activeHouse, onFooterButtonClick) {
+function Footer({activeHouse, onFooterButtonClick}) {
   return (
     <footer className="footer">
       <nav className="footer__nav">
